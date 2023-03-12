@@ -1,0 +1,58 @@
+.todo-list {
+    width: auto;
+    height: auto;
+}
+
+.todo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.todo:hover > .delete{
+    display: flex;
+    transition: 1.8;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: #ebd8d9;
+}
+
+.task {
+    font-size: 26px;
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0 20px;
+    outline: none;
+    border: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #919191;
+}
+
+.delete {
+    font-size: 20px;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 14px;
+    color: #e6999d;
+    display: none;
+}

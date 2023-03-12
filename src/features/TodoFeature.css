@@ -1,0 +1,47 @@
+.todo-feature {
+    width: 549px;
+    height: auto;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.extend {
+    height: 42px;
+    width: auto;
+    border-top: 1px solid #E6E6E6;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 16px;
+}
+
+.action{
+    width: 178px;
+    display: flex;
+    justify-content:space-between;
+}
+.action-btn{
+    cursor: pointer;
+    border: none;
+    padding: 4px 8px;
+    background: none;
+}
+.action-btn:hover{
+    border: 1px solid #EBD8D9;
+}
+
+.clearCompleted{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.content {
+    font-size: 14px;
+}
+
+.active {
+    border: 1px solid #ebd8d9;
+}
